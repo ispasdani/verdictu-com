@@ -125,3 +125,11 @@
     @apply bg-background text-foreground;
   }
 }
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+}
