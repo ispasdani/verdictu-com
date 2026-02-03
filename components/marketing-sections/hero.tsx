@@ -13,10 +13,10 @@ function Hero() {
           <DiagonalPattern />
         </BorderedSection>
         <div className="container mx-auto pt-16 pb-12 text-center md:pt-20 lg:pt-28">
-          <h1 className="mx-auto max-w-[500px] text-[2.5rem] leading-[1.2] tracking-[-1.6px] text-balance md:text-[4rem] md:!leading-[1.15] md:tracking-[-4.32px] lg:text-7xl">
+          <h1 className="mx-auto max-w-125 text-[2.5rem] leading-[1.2] tracking-[-1.6px] text-balance md:text-[4rem] md:!leading-[1.15] md:tracking-[-4.32px] lg:text-7xl">
             Say Goodbye to Task Overload
           </h1>
-          <p className="text-muted-foreground mx-auto mt-5 max-w-[500px] leading-[1.5] tracking-[-0.32px] md:mt-6">
+          <p className="text-muted-foreground mx-auto mt-5 max-w-125 leading-normal tracking-[-0.32px] md:mt-6">
             Prioritize, automate, and stay ahead—AI simplifies your tasks so you
             can focus on what matters most.
           </p>
@@ -46,7 +46,7 @@ function Hero() {
           <Image
             src="/images/homepage/hero.png"
             alt="Hero"
-            className="mx-auto rounded-xl border object-contain p-1 shadow-lg 2xl:max-w-[1092px] dark:invert"
+            className="mx-auto rounded-xl border object-contain p-1 shadow-lg 2xl:max-w-273 dark:invert"
             width={1000}
             height={600}
           />
