@@ -61,7 +61,7 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="relative z-50 border-b backdrop-blur-sm w-full flex items-center justify-center bg-amber-200">
+    <header className="relative z-50 border-b backdrop-blur-sm w-full flex items-center justify-center ">
       <div className="container">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
