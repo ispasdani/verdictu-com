@@ -66,14 +66,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1">
-            <Image
-              src="/images/logo.svg"
-              alt="logo"
-              width={32}
-              height={32}
-              className="dark:invert"
-            />
-            <span className="text-2xl leading-0 font-semibold">Relative</span>
+            <span className="text-2xl leading-0 font-semibold">Verdictu</span>
           </Link>
 
           {/* Desktop Navigation */}
