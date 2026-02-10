@@ -6,14 +6,12 @@ const BorderedSection = ({
 }: {
   children?: React.ReactNode;
   className?: string;
-}) => {
-  return (
-    <div
-      className={cn("relative w-[159px] border-r p-1 max-lg:hidden", className)}
-    >
-      {children}
-    </div>
-  );
-};
+}) => (
+  <div
+    className={cn("relative w-[159px] border-r p-1 max-lg:hidden", className)}
+  >
+    {children}
+  </div>
+);
 
 export default BorderedSection;
