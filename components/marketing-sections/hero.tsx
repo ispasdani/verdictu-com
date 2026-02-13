@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <section className="pb-16 text-center lg:pb-0">
+    <section className="pb-16 text-center lg:pb-0 ">
       <div className="flex">
         <BorderedSection className="2xl:flex-1">
           <DiagonalPattern />
@@ -54,7 +54,7 @@ function Hero() {
         <BorderedSection className="border-r-0 border-l 2xl:flex-1" />
       </div>
       <div className="flex max-lg:hidden">
-        <div className="h-8 flex-1 border" />
+        <div className="h-8 flex-1 border mr-2" />
         <div className="h-[96px] w-[min(753px,55vw)] -translate-y-1.5">
           <DiagonalPattern />
         </div>
